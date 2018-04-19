@@ -1,4 +1,4 @@
 <?php
 
-include('functions.php.inc');
-include('classes.php.inc');
+include('Functions.php');
+include('Classes.php');

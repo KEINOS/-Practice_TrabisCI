@@ -36,8 +36,8 @@ Practice_Travis-CI/
 	┣━ composer.json （PHPUnit インストール用 Composer 設定ファイル）
 	┣━ src/ （メインとなるソースコード）
 	┃	┣━ index.php
-	┃	┣━ functions.php.inc （ユーザ関数一覧）
-	┃	┗━ classes.php.inc （クラス一覧）
+	┃	┣━ Functions.php （ユーザ関数一覧）
+	┃	┗━ Classes.php （クラス一覧）
 	┗━ test/ （Travis CI で実行するテスト）
-		┗━ Test.php
+		┗━ FunctionsTest.php
 ```	
