@@ -31,6 +31,7 @@ Practice_Travis-CI/
 	┣━ .git/ （このリポジトリの git 情報）
 	┣━ .gitignore/ （git 同期で除外するファイル／ディレクトリを指定）
 	┣━ .travis.yum （Travis CI の設定ファイル）
+	┣━ composer.json （PHPUnit インストール用 Composer 設定ファイル）
 	┣━ src/ （メインとなるソースコード）
 	┃	┣━ index.php
 	┃	┣━ functions.php.inc （ユーザ関数一覧）
