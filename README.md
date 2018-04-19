@@ -20,6 +20,9 @@
     - PHP 5.6.35 (cli) 
     - PHP 7.2.4 (cli)
 
+- PHPUnit v.5.0.10 via Composer
+    - PHP 5.6, 7.0, 7.1 コンパチは PHPUnit 5 であるため
+
 ## 構成
 
 ```
