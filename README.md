@@ -25,7 +25,8 @@
 ```
 Practice_Travis-CI/
 	┣━ README.md （このファイル）
-	┣━ .gitignore （git 同期で除外するファイル／ディレクトリを指定）
+	┣━ .git/ （このリポジトリの git 情報）
+	┣━ .gitignore/ （git 同期で除外するファイル／ディレクトリを指定）
 	┣━ .travis.yum （Travis CI の設定ファイル）
 	┣━ src/ （メインとなるソースコード）
 	┃	┣━ index.php
