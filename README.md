@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/KEINOS/Practice_Travis-CI.svg?branch=master)](https://travis-ci.org/KEINOS/Practice_Travis-CI)
+
 ## Travis CI's PHP Template with PHPUnit
 
 とりあえず [Travis CI](https://ja.wikipedia.org/wiki/Travis_CI) で動く [PHPUnit](https://phpunit.de/manual/current/ja/) テスト付き「Hello World」の PHP テンプレート。
