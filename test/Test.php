@@ -1,6 +1,7 @@
 <?php
 
-class PracticeTest extends PHPUnit_Framework_TestCase {
+class Test extends PHPUnit_Framework_TestCase
+{
     public function testHelloWorld()
     {
         $message = 'Hello, World!';
@@ -8,4 +9,3 @@ class PracticeTest extends PHPUnit_Framework_TestCase {
         $this->assertTrue($message === 'Hello, World!');
     }
 }
-
