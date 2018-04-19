@@ -6,8 +6,4 @@ php:
   - 7.1.14
   - 7.2.4
 
-install:
-  - composer update
-  - composer install
-
 script: phpunit tests
