@@ -18,7 +18,7 @@ class ClassesTest extends TestCase
     }
 
     /*
-     * テストを行うメソッド名は「test*」
+     * テストを行うメソッド名は「test*」（*はクラス名）
      */
     public function testMyClass()
     {
