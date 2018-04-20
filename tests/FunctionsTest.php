@@ -4,8 +4,13 @@ include('src/Functions.php');
 
 use PHPUnit\Framework\TestCase;
 
-class Test extends PHPUnit_Framework_TestCase
+class FunctionsTest extends TestCase
 {
+    public function setUp()
+    {
+        //
+    }
+    
     public function testHelloWorld()
     {
         $message = 'Hello, World!';
