@@ -9,7 +9,12 @@ class ClassesTest extends TestCase
 {
     public function setUp()
     {
-        //
+        // Warning も確実にエラーとして扱うようにする
+        set_error_handler(function ($errno, $errstr, $errfile, $errline) {
+            $msg  = 'Error #' . $errno . ': ';
+            $msg .= $errstr . " on line " . $errline . " in file " . $errfile;
+            throw new RuntimeException($msg);
+        });
     }
 
     /*
@@ -18,7 +23,7 @@ class ClassesTest extends TestCase
     public function testMyClass()
     {
         $message = 'Hello, World!';
-        
+
         $result = MyClass::return_message($message);
         $this->assertTrue($result === $message);
 
@@ -26,5 +31,10 @@ class ClassesTest extends TestCase
         $result  = $test->return_message($message);
 
         $this->assertTrue($result === $message);
+    }
+
+    public function tearDown()
+    {
+        restore_error_handler();
     }
 }
