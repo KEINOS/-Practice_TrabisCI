@@ -56,6 +56,24 @@ Practice_Travis-CI/
 1. Travis CI が連動してテストを始めるのを確認します。
 
 
+## ローカルにテスト環境を作る
+
+1. 自分の環境の PHP バージョンを確認します。
+1. カレントディレクトリをクローンしたリポジトリに移します。
+1. `.travis.yml` に自分の PHP バージョンを追記します。
+1. `composer.lock` ファイルを削除します。（`$ rm composer.lock`）
+1. `composer` コマンドが使えるのを確認します。（`$ composer --version`）
+1. PHPUnit をインストールする。
+    - `$ composer update`
+    - `$ composer install`
+1. `vendor` ディレクトリが出来たのを確認し、PHPUnit のバージョンを確認する。
+    - `$ vendor/bin/phpunit --version`
+1. `tests` ディレクトリ内のテストを実行する。
+    - `$ vendor/bin/phpunit tests`
+    - 「OK, but incomplete, skipped, or risky tests!」と出れば OK。記述中の「..I」は、３つのテストのうち２つがパスして１つをスキップしたことを意味します。
+
+
+
 
 
 
