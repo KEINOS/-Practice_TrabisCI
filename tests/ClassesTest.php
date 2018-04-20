@@ -1,11 +1,11 @@
 <?php
-include('vendor/autoload.php');
-include('src/Functions.php');
-include('src/Classes.php');
+include_once('vendor/autoload.php');
+include_once('src/Functions.php');
+include_once('src/Classes.php');
 
 use PHPUnit\Framework\TestCase;
 
-class ClassessTest extends TestCase
+class ClassesTest extends TestCase
 {
     public function setUp()
     {
