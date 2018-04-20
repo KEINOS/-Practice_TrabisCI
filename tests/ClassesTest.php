@@ -15,12 +15,12 @@ class ClassesTest extends TestCase
     /*
      * テストを行うメソッド名は「test*」
      */    
-    public function testMessage()
+    public function testMyClass()
     {
         $message = 'Hello, World!';
         
-        $test    = new Message();
-        $result  = $test->echo($message);
+        $test    = new MyClass();
+        $result  = $test->echo_message($message);
 
         $this->assertTrue($result === 'Hello, World!');
     }

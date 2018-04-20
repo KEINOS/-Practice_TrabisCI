@@ -1,8 +1,8 @@
 <?php
 
-class Message
+class MyClass
 {
-    public function echo($message)
+    public function echo_message($message)
     {
         return (string) $message;
     }
