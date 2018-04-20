@@ -21,10 +21,10 @@ class FunctionsTest extends TestCase
     /*
      * テストを行うメソッド名は「test*」
      */    
-    public function test_echo_message()
+    public function test_return_message()
     {
         $message = 'Hello, World!';
-        $result  = echo_message($message);
+        $result  = return_message($message);
 
         $this->assertTrue($result === 'Hello, World!');
     }

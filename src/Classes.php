@@ -2,7 +2,7 @@
 
 class MyClass
 {
-    public function echo_message($message)
+    public function return_message($message)
     {
         return (string) $message;
     }

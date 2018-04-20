@@ -1,6 +1,6 @@
 <?php
 
-function echo_message($message)
+function return_message($message)
 {
     return (string) $message;
 }

@@ -20,7 +20,7 @@ class ClassesTest extends TestCase
         $message = 'Hello, World!';
         
         $test    = new MyClass();
-        $result  = $test->echo_message($message);
+        $result  = $test->return_message($message);
 
         $this->assertTrue($result === 'Hello, World!');
     }
