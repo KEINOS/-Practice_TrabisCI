@@ -21,7 +21,7 @@ class FunctionsTest extends TestCase
     /*
      * テストを行うメソッド名は「test*」
      */    
-    public function testEchoMessage()
+    public function test_echo_message()
     {
         $message = 'Hello, World!';
         $result  = echo_message($message);
@@ -33,7 +33,7 @@ class FunctionsTest extends TestCase
     /*
      * 未実装・テスト準備済みは`markTestIncomplete(理由)`メソッドを使う
      */    
-    public function testUnknown()
+    public function test_unknown()
     {
         $this->markTestIncomplete('unknown関数は準備中です');        
     }
