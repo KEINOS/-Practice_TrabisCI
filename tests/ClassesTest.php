@@ -11,4 +11,17 @@ class ClassesTest extends TestCase
     {
         //
     }    
+
+    /*
+     * テストを行うメソッド名は「test*」
+     */    
+    public function testMessage()
+    {
+        $message = 'Hello, World!';
+        
+        $test    = new Message();
+        $result  = $test->echo($message);
+
+        $this->assertTrue($result === 'Hello, World!');
+    }
 }
