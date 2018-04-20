@@ -19,7 +19,7 @@ class ClassesTest extends TestCase
     {
         $message = 'Hello, World!';
         
-        $result = MyClass:return_message($message);
+        $result = MyClass::return_message($message);
         $this->assertTrue($result === $message);
 
         $test    = new MyClass();
