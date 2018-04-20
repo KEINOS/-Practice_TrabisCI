@@ -12,7 +12,7 @@
 
 ## 検証環境
 
-以下の環境で動作した PHP スクリプトを、GitHub に Push した際に Travis CI の PHPUnit テストを通します。
+以下の環境で動作した PHP スクリプトを Travis CI で PHPUnit テストを通します。
 
 - macOS High Sierra (OSX 10.13.4)
     - PHP 7.1.14 (cli)
@@ -25,7 +25,7 @@
 - PHPUnit v.5.0.10 via Composer
     - PHP 5.6, 7.0, 7.1 コンパチは PHPUnit 5 であるため
 
-## 構成
+## ディレクトリ構成
 
 ```
 Practice_Travis-CI/
@@ -34,10 +34,13 @@ Practice_Travis-CI/
 	┣━ .gitignore/ （git 同期で除外するファイル／ディレクトリを指定）
 	┣━ .travis.yum （Travis CI の設定ファイル）
 	┣━ composer.json （PHPUnit インストール用 Composer 設定ファイル）
+	┣━ composer.lock （検証時の Composer 環境再現ファイル）
 	┣━ src/ （メインとなるソースコード）
 	┃	┣━ index.php
 	┃	┣━ Functions.php （ユーザ関数一覧）
 	┃	┗━ Classes.php （クラス一覧）
 	┗━ test/ （Travis CI で実行するテスト）
-		┗━ FunctionsTest.php
+		┣━ FunctionsTest.php
+		┗━ ClassesTest.php
 ```	
+
