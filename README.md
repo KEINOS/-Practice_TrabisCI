@@ -50,7 +50,7 @@ Practice_Travis-CI/
 1. GitHub に空のリポジトリを作成する。
 1. Travis CI 上で作成した GitHub のリポジトリを追加する。
 1. 作成した GitHub リポジトリをローカルにクローンする。
-1. クローンしたローカル・リポジトリ内に、この[リポジトリをダウンロード](https://github.com/KEINOS/Practice_Travis-CI/archive/master.zip)、解凍したものを移動する。
+1. クローンしたローカル・リポジトリ内に、この[リポジトリをダウンロード](https://github.com/KEINOS/Practice_Travis-CI/archive/master.zip)、解凍した中身を移動する。
 1. 移動したファイルやディレクトリをコミットする（イニシャルコミット）
 1. リモート（GitHub）にマージ後プッシュ／プルリクエストします。
 1. Travis CI が連動してテストを始めるのを確認します。
