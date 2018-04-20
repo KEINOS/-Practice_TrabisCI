@@ -1,7 +1,7 @@
 <?php
 include('vendor/autoload.php');
 include('src/Functions.php');
-include('src/ClassesTest.php');
+include('src/Classes.php');
 
 use PHPUnit\Framework\TestCase;
 
