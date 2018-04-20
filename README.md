@@ -64,7 +64,6 @@ Practice_Travis-CI/
 1. `composer.lock` ファイルを削除します。（`$ rm composer.lock`）
 1. `composer` コマンドが使えるのを確認します。（`$ composer --version`）
 1. PHPUnit をインストールする。
-    - `$ composer update`
     - `$ composer install`
 1. `vendor` ディレクトリが出来たのを確認し、PHPUnit のバージョンを確認する。
     - `$ vendor/bin/phpunit --version`
